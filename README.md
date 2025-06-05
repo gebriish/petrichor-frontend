@@ -1,3 +1,15 @@
+## Critical Points to Keep in mind
+
+1. Don't install anything new without asking.
+2. Don't make changes to `.svelte-kit`, `node_modules` (auto-generated).
+3. Generally, would only need to make updates in `/src`, `/static` directories.
+4. As a general rule, if any configs need to be changed `inform`.
+5. Go through `README.md` to get started.
+6. `REFERENCE.md` is just to get an idea of multiple configs, hidden files, etc (OPTIONAL).
+7. Never push to remote `origin/main` branch.
+8. We will use (conventional commits) [https://www.conventionalcommits.org/en/v1.0.0/] for commits and pull requests. 
+9. Only make changes in files and folders corresponding to your task.
+
 ## Prerequisites
 
 **Visual Studio Code installed**
@@ -112,14 +124,3 @@ npm run preview
 
 Deploy with an appropriate [adapter](https://svelte.dev/docs/kit/adapters) for your environment.
 
-## Critical Points to Keep in mind
-
-1. Don't install anything new without asking.
-2. Don't make changes to `.svelte-kit`, `node_modules` (auto-generated).
-3. Generally, would only need to make updates in `/src`, `/static` directories.
-4. As a general rule, if any configs need to be changed `inform`.
-5. Go through `README.md` to get started.
-6. `REFERENCE.md` is just to get an idea of multiple configs, hidden files, etc (OPTIONAL).
-7. Never push to remote `origin/main` branch.
-8. We will use (conventional commits) [https://www.conventionalcommits.org/en/v1.0.0/] for commits and pull requests. 
-9. Only make changes in files and folders corresponding to your task.
