@@ -2,5 +2,5 @@
 </script>
 
 <nav data-testid="navbar">
-	<p>This is a test navigation bar</p>
+	<p>This is a test navbar</p>
 </nav>

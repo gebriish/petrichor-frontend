@@ -1,6 +1,6 @@
 <script>
 </script>
 
-<nav data-testid="navbar">
-	<p>This is a test navigation bar</p>
+<nav data-testid="footer">
+	<p>This is a test footer</p>
 </nav>
