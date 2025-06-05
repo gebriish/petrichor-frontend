@@ -9,8 +9,8 @@
 7. Never push to remote `origin/main` branch.
 8. We will use (conventional commits) [https://www.conventionalcommits.org/en/v1.0.0/] for commits and pull requests. 
 9. Only make changes in files and folders corresponding to your task.
-10. Fork the repository, clone the forked repo, create feature branch, work on your feature branch, merge with your own main branch, 
-push(sync) to yout forked repo, Go to main repo & open a pull request (with clear title and description) and wait for review.
+10. Fork the repository, clone the forked repo, work on the forked repo, push(sync) to yout forked repo,
+open a pull request (with clear title and description) and wait for review.
 
 ## Prerequisites
 
