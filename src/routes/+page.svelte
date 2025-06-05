@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    import Navbar from "$lib/shared/ui/components/navbar/Navbar.svelte";
+    import Footer from "$lib/shared/ui/components/footer/Footer.svelte";
+</script>
+
+<Navbar />
+<h1>This is the home page</h1>
+<Footer />
+
