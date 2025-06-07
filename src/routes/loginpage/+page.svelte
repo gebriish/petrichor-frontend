@@ -1,2 +1,4 @@
-<h1>This is the login page</h1>
-
+<script>
+    import Login from '$lib/shared/ui/components/login/Login.svelte';
+</script>
+<Login/>
