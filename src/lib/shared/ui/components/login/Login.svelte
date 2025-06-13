@@ -9,12 +9,12 @@
 <main>
 	<div class="container">
 		<div class="login">
-			<h2>Login</h2>
+			<h2><strong>Login</strong></h2>
 			<input type="text" placeholder="Username" bind:value={username}>
 			<input type="text" placeholder="Password" bind:value={password}>
 			<div class="redirect">
-				<a href="#" id="link1">Register Instead</a>
-				<a href="#" id="link2">Forgot Password</a>
+				<a href="/" id="link1">Register Instead</a>
+				<a href="/" id="link2">Forgot Password</a>
 			</div>
 			<button class="login-btn" on:click={onEnter}>Login</button>
 		</div>
