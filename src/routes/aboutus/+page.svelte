@@ -1,116 +1,21 @@
 <script>
-  // no JavaScript needed for now
+  // no JS needed
 </script>
 
-<style>
-  :global(body){
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+<div class="w-full min-h-[350vh] flex flex-col md:flex-row text-white font-['Open_Sans','Arial','sans-serif'] p-10
+            bg-[linear-gradient(160deg,#01d6f4_0%,#039ff1_0.15%,#0575ba_2%,#074f88_4%,#04528e_6.5%,#005698_7%,#001423_11%,#000910_15%,#000000_100%)]
+            md:bg-[linear-gradient(160deg,#01d6f4_0%,#039ff1_0.15%,#0575ba_2.8%,#074f88_5.6%,#04528e_9.1%,#005698_9.8%,#001423_15.4%,#000910_21%,#000000_100%)]">
 
-  .container {
-    width: 100%;
-    min-height: 350vh;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background: linear-gradient(
-      160deg,
-      #01d6f4 0%, 
-        #039ff1 0.15%, 
-        #0575ba 2.8%, 
-        #074f88 5.6%, 
-        #04528e 9.1%, 
-        #005698 9.8%, 
-        #001423 15.4%, 
-        #000910 21%, 
-        #000000 100%
-    );
-    color: white;
-    padding: 2rem;
-    margin: 0;
-    font-family: 'Open Sans', 'Arial', 'Sans Serif';
-  }
-
-  .left-half {
-    flex: 1;
-  }
-
-  .right-half {
-    flex: 1;
-    min-width: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin-top: 150px;
-    padding-right: 5%;
-  }
-
-  h1 {
-    text-align: left;
-    font-size: 3rem;
-    font-weight: 550;
+  <div class="hidden md:block md:flex-1">
     
-    margin-bottom: 1rem;
-  }
+  </div>
 
-  .content {
-    text-align: justify;
-    line-height: 1.7;
-    font-weight: 200;
-    font-size: 1rem;
-    color: #ccc;
-    max-width: 100%;
-  }
-
-  @media (max-width: 768px) {
-    .container {
-      justify-content: flex-start;
-      flex-direction: column;
-      padding-top: 0;
-      padding: 2rem;
-      width: 100%;
-      background: linear-gradient(
-        160deg,
-        #01d6f4 0%, 
-        #039ff1 0.15%, 
-        #0575ba 2%, 
-        #074f88 4%, 
-        #04528e 6.5%, 
-        #005698 7%, 
-        #001423 11%, 
-        #000910 15%, 
-        #000000 100%
-      );
-    }
-
-    .left-half {
-      max-height: 0;
-      margin: 0;
-    }
-
-    .right-half {
-      min-height: 100%;
-      justify-content: flex-start;
-      margin-top: 14vh;
-      padding: 0;
-    }
-
-    h1 {
-      text-align: center;
-    }
-  }
-</style>
-
-<div class="container">
-  <div class="left-half"></div>
-
-  <div class="right-half">
-    <h1>About Us</h1>
-    <div class="content">
+  <!-- Right Side (content) -->
+  <div class="flex-1 min-w-full md:min-w-[55%] flex flex-col justify-start mt-10 md:mt-36 md:pr-10">
+    <h1 class="text-6xl pt-20 md:pt-0 font-semibold mb-4 text-center md:text-left">About Us</h1>
+    <div class="text-3xl text-justify leading-relaxed font-light text-sm text-300">
       <p>
-        Petrichor - the annual techno-cultural fest of IIT Palakkad is back again, and better than ever before. Also, yes, it's offline. We, the students of IIT Palakkad, conduct Petrichor every year and made sure last year's event was enriching for all its participants. Now the wait is over, with just the perfect mix of cultural and technical events, we plan on making Petrichor'24 an unforgettable experience for you. Trust us when we say that you won't miss out on anything. Check out our website as it has answers to all the questions that you might have. Stay tuned and brace yourselves for the journey of a lifetime with Petrichor'24!
+        Petrichor - the annual techno-cultural fest of IIT Palakkad is back again, and better than ever before. Also, yes, it's offline. We, the students of IIT Palakkad, conduct Petrichor every year and made sure last year's event was enriching for all its participants. Now the wait is over, with just the perfect mix of cultural and technical events, we plan on making Petrichor'24 an unforgettable experience for you. Trust us when we say that you won't miss out on anything.
       </p>
     </div>
   </div>
