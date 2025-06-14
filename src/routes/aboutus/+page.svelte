@@ -10,7 +10,6 @@
     
   </div>
 
-  <!-- Right Side (content) -->
   <div class="flex-1 min-w-full md:min-w-[55%] flex flex-col justify-start mt-10 md:mt-36 md:pr-10">
     <h1 class="text-6xl pt-20 md:pt-0 font-semibold mb-4 text-center md:text-left">About Us</h1>
     <div class="text-3xl text-justify leading-relaxed font-light text-sm text-300">
