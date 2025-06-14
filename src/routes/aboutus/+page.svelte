@@ -3,7 +3,14 @@
 </script>
 
 <style>
+  :global(body){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
   .container {
+    width: 100%;
     min-height: 350vh;
     display: flex;
     flex-direction: row;
@@ -21,15 +28,13 @@
         #000000 100%
     );
     color: white;
-    font-family: 'Segoe UI', sans-serif;
     padding: 2rem;
     margin: 0;
+    font-family: 'Open Sans', 'Arial', 'Sans Serif';
   }
 
   .left-half {
     flex: 1;
-    min-width: 45%;
-    min-height: 110px;
   }
 
   .right-half {
@@ -46,12 +51,11 @@
     text-align: left;
     font-size: 3rem;
     font-weight: 550;
-    font-family: 'Open Sans';
+    
     margin-bottom: 1rem;
   }
 
   .content {
-    font-family: 'Open Sans';
     text-align: justify;
     line-height: 1.7;
     font-weight: 200;
@@ -66,6 +70,7 @@
       flex-direction: column;
       padding-top: 0;
       padding: 2rem;
+      width: 100%;
       background: linear-gradient(
         160deg,
         #01d6f4 0%, 
@@ -88,7 +93,7 @@
     .right-half {
       min-height: 100%;
       justify-content: flex-start;
-      margin-top: 0;
+      margin-top: 14vh;
       padding: 0;
     }
 
