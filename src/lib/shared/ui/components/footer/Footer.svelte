@@ -1,5 +1,5 @@
 <script>
-    const GlobeIcon =   `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+    const GlobeIcon =   `<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6 text-blue-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
                         <circle cx="12" cy="12" r="10"></circle>
                         <path d="M2 12h20"></path>
                         <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
@@ -28,30 +28,14 @@
 
 </style>
 
-<footer class="bg-transparent text-white border-t border-b border-white">
+<footer class="bg-black text-white border-t border-b border-white">
     <div class="flex h-10 relative overflow-hidden w-full">
-
-        <div class="scroll-item item-1 flex items-center self-center">
-            {@html GlobeIcon}
-            <span class="text-lg ml-2">PETRICHOR</span>
-        </div>
-
-        <div class="scroll-item item-2 flex items-center self-center">
-            {@html GlobeIcon}
-            <span class="text-lg ml-2">PETRICHOR</span>
-        </div>
-        
-
-        <div class="scroll-item item-3 flex items-center self-center">
-            {@html GlobeIcon}
-            <span class="text-lg ml-2">PETRICHOR</span>
-        </div>
-        
-
-        <div class="scroll-item item-4 flex items-center self-center">
-            {@html GlobeIcon}
-            <span class="text-lg ml-2">PETRICHOR</span>
-        </div>
+        {#each [1,2,3,4] as n}
+            <div class="scroll-item item-{n} flex items-center self-center ">
+                {@html GlobeIcon}
+                <span class="text-lg ml-2 hidden sm:inline">PETRICHOR</span>
+            </div>
+        {/each}
 
     </div>
 </footer>
