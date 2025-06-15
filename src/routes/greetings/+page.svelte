@@ -46,20 +46,22 @@
 
         <div class="flex flex-col gap-6 items-start">
           <!-- Button 1 -->
-          <button
-            on:click={enterCode}
-            class="font-sans min-w-[180px] md:min-w-[200px] text-xl md:text-2xl lg:text-3xl px-6 md:px-8 lg:px-10 py-4 md:py-5 lg:py-6 rounded-full bg-gradient-to-r from-black to-[#01CFF7] hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_4px_14px_rgba(0,255,255,0.3)]"
-            style="font-family: Arial, sans-serif;">
-            Enter CA code
-          </button>
+            <button
+              on:click={enterCode}
+              class="font-sans w-[160px] md:w-[180px] lg:w-[250px] text-base md:text-xl lg:text-2xl px-4 md:px-6 lg:px-10 py-3 md:py-4 lg:py-6 rounded-full bg-gradient-to-r from-black to-[#01CFF7] hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_4px_14px_rgba(0,255,255,0.3)]"
+              style="font-family: Arial, sans-serif;">
+              Enter CA code
+            </button>
 
-          <!-- Button 2 -->
-          <button
-            on:click={getCode}
-            class="font-sans min-w-[180px] md:min-w-[200px] text-xl md:text-2xl lg:text-3xl px-6 md:px-8 lg:px-10 py-4 md:py-5 lg:py-6 rounded-full bg-gradient-to-r from-black to-[#01CFF7] hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_4px_14px_rgba(0,255,255,0.3)]"
-            style="font-family: Arial, sans-serif;">
-            Get CA code
-          </button>
+            <!-- Button 2 -->
+            <button
+              on:click={getCode}
+              class="font-sans w-[160px] md:w-[180px] lg:w-[250px] text-base md:text-xl lg:text-2xl px-4 md:px-6 lg:px-10 py-3 md:py-4 lg:py-6 rounded-full bg-gradient-to-r from-black to-[#01CFF7] hover:scale-105 active:scale-95 transition-all duration-300 shadow-[0_4px_14px_rgba(0,255,255,0.3)]"
+              style="font-family: Arial, sans-serif;">
+              Get CA code
+            </button>
+
+
         </div>
       </div>
 
