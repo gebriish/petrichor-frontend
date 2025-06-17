@@ -30,4 +30,4 @@ src/lib/paraglide
 storybook-static
 
 #Cache Files
-project.inlang/cache
+project.inlang/cache/
