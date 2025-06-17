@@ -1,19 +1,49 @@
-<script></script>
+<script>
+	let navlinks = [
+		{
+			"path": "/aboutus",
+			"name": "About us",
+		},
+		{
+			"path": "/event",
+			"name": "Event",
+		},
+		{
+			"path": "/workshop",
+			"name": "Workshop",
+		},
+		{
+			"path": "/schedule",
+			"name": "Schedule",
+		},
+		{
+			"path": "/merch",
+			"name": "Merch",
+		},
+		{
+			"path": "/sponsors",
+			"name": "Sponsors",
+		}
 
-<div class="w-full">
-<nav class=" w-full   ">
-	<div  class=" flex pl-[3vw] h-[8vh] w-full items-center justify-between text-slate-800 bg-black">
-		<a
-			href="#"
-			class="  block items-center px-[4vw] md:px-[10vw]  font-[Helvetica] text-[4vw] md:text-[1.5vw]  text-white text-slate-800"
-			>PETRICHOR'26
-		</a>
-		<div  class="flex items-center  px-[5vw] md:px-[10vw]  space-x-[6vw]  text-[2.5vw] md:text-[1.2vw] text-white justify-items-end ">
-			<a href="#" class="flex items-center  "> About us </a>
-			<a href="#" class="flex items-center  "> Events </a>
-			<a href="#" class="flex items-center  "> Merch </a>
-			<a href="#" class="flex items-center  "> Schedule </a>
+	]
+</script>
+
+<nav class="sticky top-0 z-50 w-full">
+    <div class="flex items-center justify-between px-10 h-18 bg-black whitespace-nowrap">
+      <a
+        href="/"
+        class="mr-10 font-[Helvetica] font-bold text-xl text-white"
+      >
+        PETRICHOR '26
+      </a>
+
+		<div class="px-20 hidden lg:flex space-x-6 xl:space-x-8 font-bold text-xl text-white">
+			{#each navlinks as link}
+				<a href={link.path}	>{link.name}</a>
+			{/each}
 		</div>
-	</div>
+	  <div class="font-bold text-xl text-white">
+		<h1>Profile</h1>
+      </div>
+    </div>
 </nav>
-</div>
