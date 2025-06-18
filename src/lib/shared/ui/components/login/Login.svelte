@@ -1,6 +1,25 @@
 <script>
+    import './Login.css'
+    let username="";
+    let password="";
+    const onEnter = () => {
+        console.log("Hi",username,password)
+    }
 </script>
-
-<form data-testid="login">
-	<p>This is a test login form</p>
-</form>
+<main>
+	<div class="container">
+		<div class="login">
+			<h2><strong>Login</strong></h2>
+			<input type="text" placeholder="Username" bind:value={username}>
+			<input type="text" placeholder="Password" bind:value={password}>
+			<div class="redirect">
+				<a href="/" id="link1">Register Instead</a>
+				<a href="/" id="link2">Forgot Password</a>
+			</div>
+			<button class="login-btn" on:click={onEnter}>Login</button>
+		</div>
+	</div>
+</main>
+<style>
+	
+</style>

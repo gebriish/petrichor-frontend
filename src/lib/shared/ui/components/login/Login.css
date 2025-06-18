@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+main {
+  @apply min-h-screen flex justify-center items-center bg-[#000910];
+  background: linear-gradient(
+    190deg,
+    #039FF1 0%,
+    #074F88 9%,
+    #005698 20%,
+    #001423 32%,
+    #000910 50%,
+    #000000 100%
+  );
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-color: #000;
+}
+
+.container {
+  @apply w-[90%] max-w-[700px] 
+  border-2 border-white 
+  rounded-[40px] lg:rounded-[80px] md:rounded-[80px] sm:rounded-[80px]
+  bg-transparent 
+  flex justify-center items-center 
+  px-6 sm:px-10 py-6;
+}
+
+.login {
+  @apply flex flex-col justify-center items-center 
+  w-full text-white lg:mt-[10px] lg:pl-[70px] lg:pr-[70px] lg:pt-[5px] md:pl-[50px] md:pr-[50px]
+  sm:pl-[30px] sm:pr-[30px];
+}
+
+.login h2 {
+  @apply mb-6 text-[26px] lg:text-[30px] font-sans;
+}
+
+.login input {
+  @apply w-full h-[45px] lg:h-[50px] 
+  rounded-[10px] mb-[20px] 
+  bg-[#305168] 
+  border-2 border-[#7EC8FD]
+  px-4 text-white;
+}
+
+input::placeholder {
+  @apply text-center text-white;
+}
+
+.redirect {
+  @apply mt-2 text-white text-sm w-full flex justify-between;
+}
+
+#link1, #link2 {
+  @apply text-white underline lg:text-[17px];
+}
+
+.login button {
+  @apply mt-[30px] w-full sm:w-[70%] md:w-[60%] lg:w-[50%] h-[40px] 
+  rounded-full mb-[20px] lg:mb-[30px] lg:mt-[50px] md:mb-[30px] md:mt-[50px]
+  text-white border-none 
+  bg-gradient-to-r from-[#00121f] to-[#06baf1];
+}
